@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>网络安全教育</title>
+<style>
+  #panda-image {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    border: 1px solid #000;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+</style>
+</head>
+<body>
+<h1>网络安全教育 - 网络诈骗示例</h1>
+<p>欢迎来到网络安全教育页面。请记住，在网络上永远不要点击可疑的链接，也不要在不安全的网站上输入你的个人信息。</p>
+
+<!-- 弹出图片的HTML -->
+<div id="panda-image">
+  <img src="panda_with_incense.jpg" alt="熊猫拿着三支香">
+</div>
+
+<script>
+// 页面加载完成后显示弹出图片
+window.onload = function() {
+  var pandaImage = document.getElementById('panda-image');
+  pandaImage.style.display = 'block';
+};
+</script>
+</body>
+</html>
